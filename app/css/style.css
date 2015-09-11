@@ -2,7 +2,7 @@
     text-align: center;
     padding-top: 3em;
     color: #FFF;
-    min-height: 500px;
+    min-height: 700px;
     height: 500px;
 }
 
@@ -44,6 +44,10 @@
     width: 100%;
     vertical-align: middle;
     border-radius: 50%;
+}
+
+.stats-links {
+    background: #282d32 !important;
 }
 /*.ng-enter,
 .ng-leave {
@@ -530,10 +534,11 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #8e8071;
+    color: black;
+    background-color: #282d32;
     font-size: 13px;
     position: relative;
-    background: #aa8a6e url(images/bg.jpg) center top repeat;
+    /*background: #aa8a6e url(images/bg.jpg) center top repeat;*/
     /*background-size: 100% 100%; Removed by Craig*/
 }
 
@@ -551,7 +556,7 @@ body {
 
 a:hover,
 a:focus {
-    color: #8D8569;
+    color: grey;
     text-decoration: none;
 }
 
@@ -635,7 +640,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #5c5146;
+    color: #fff;
     font-weight: 400;
     letter-spacing: -1px;
     line-height: 1.2em;
@@ -653,7 +658,8 @@ h1 {
 }
 
 h2 {
-    font-size: 24px
+    font-size: 24px;
+    color: grey;
 }
 
 h3 {
@@ -699,6 +705,7 @@ i {
 p {
     line-height: 19px;
     margin-bottom: 16px;
+    color: grey;
 }
 
 .margin-10 {
@@ -4307,7 +4314,7 @@ input[type="password"]:focus {
 }
 
 .stats-links li a:hover {
-    background: #64584c;
+    background: grey;
     -webkit-box-shadow: inset 0 2px 2px rgba(57, 57, 57, 0.36);
     -moz-box-shadow: inset 0 2px 2px rgba(57, 57, 57, 0.36);
     box-shadow: inset 0 2px 2px rgba(57, 57, 57, 0.36);

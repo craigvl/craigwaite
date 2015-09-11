@@ -6,7 +6,8 @@ angular.module('myApp', [
   'myApp.craigwaite',
   'myApp.skills',
   'myApp.version',
-  'ngAnimate'
+  'ngAnimate',
+  'duScroll'
 ]).
 config(['$routeProvider', function ($routeProvider) {
     $routeProvider.otherwise({
